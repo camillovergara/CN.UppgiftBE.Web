@@ -1,0 +1,51 @@
+﻿@model  CN.UppgiftBE.Web.ViewModels.HomeViewModel
+@{
+    ViewBag.Title = "Rekomendation av artister som du kommer gilla";
+}
+  <div class="container-fluid">
+        <h2>@ViewBag.Title</h2>
+        <a class="btn btn-primary" data-toggle="collapse" href="#genreBox" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Välj genre och årtionde
+        </a>
+        <br />
+        <br />
+        <br />
+        <form class="row">
+            <div class="row collapse" id="genreBox">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    @foreach (var item in Model.Genres)
+                    {
+                        <label class="btn btn btn-primary active">
+                            <input type="checkbox" name="@item" autocomplete="off"> @item
+                        </label>
+                    }
+                </div>
+                <div class="form-group">
+                    <br />
+                    <label for="year">Väj årtionde</label>
+                    <select class="form-control" id="year" name="year">
+                        <option selected value="1990-1999">90's</option>
+                        <option value="1980-1989">80's</option>
+                        <option value="1970-1979">70's</option>
+                    </select>
+                    <br />
+                </div>
+                <div class="col-sm-12 text-right">
+                    <button class="btn btn-lg" type="submit">Rekomendera</button>
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div id="partial">
+                @if (@Model.ArtistList.Count > 0)
+                {
+                    Html.Partial("ListArtist", @Model.ArtistList);
+                }
+
+            </div>
+        </div>
+    </div>
+ 

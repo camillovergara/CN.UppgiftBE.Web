@@ -1,0 +1,58 @@
+﻿@model  List<CN.UppgiftBE.Web.Models.Artist>
+<div class="container-fluid">
+
+    <div class="row">
+        <div style="visibility:visible">
+            @{
+                var genress = HttpUtility.ParseQueryString("");
+                new string[] { "value1", "value2", "value3" }.ToList().ForEach(x => genress.Add("formatIDs", x));
+            }
+
+            @foreach (var item in Model)
+            {<div class="row">
+
+
+                    <div class="col-sm-2">
+                        <img src="@item.ImageUrl" class="img-rounded" alt="Cinque Terre" width="75" height="75">
+                    </div>
+                    <div class="col-sm-2">
+                        @item.Name
+                    </div>
+                    <div class="col-sm-2">
+                        #@item.Popularity
+                    </div>
+                    <div class="col-sm-2">
+                        @foreach (var genres in item.Genres.Take(1))
+                        {
+                            @genres.ToString()
+                        }
+                    </div>
+                    <div class="col-sm-2">
+                        <iframe src="https://open.spotify.com/embed/artist/@item.Id" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            }
+            @if (@Model.Count > 0)
+            {
+                
+            }
+            else
+            {
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="error-template">
+                                <h3>
+                                    Vi kunde inte rekommendera någåt som innehöll dina genre just nu.
+                                </h3>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+
+        </div>
+    </div>
+</div>

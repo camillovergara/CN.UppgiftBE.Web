@@ -1,0 +1,14 @@
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\UnitTest.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\UnitTest.pdb
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\obj\Debug\UnitTest.dll
+D:\Projects\Apoteket\apoteket-uppgift-be-master\apoteket-uppgift-be-master\Apoteket.UppgiftBE.Web\UnitTest\obj\Debug\UnitTest.pdb
